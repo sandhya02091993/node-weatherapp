@@ -1,0 +1,45 @@
+
+body{
+    color:green;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+    max-width: 650px;
+    padding: 0 16PX;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+footer{
+    padding: 10px 0;
+    margin-top: 5px;
+    border-top:1px solid black;
+}
+.main{
+    flex-grow: 1;
+}
+header{
+    padding: 5px 0;
+    margin-bottom: 5px;
+}
+header h1{
+    font-size: 60px;
+    margin-bottom: 15px;
+}
+header a{
+    color: gray;
+    margin-right: 10px;
+    text-decoration: none;
+}
+.portrait
+{
+    width:250px;
+}
+input{
+    margin: 8px;
+    border: 1px solid gray ;
+}
+button{
+    cursor: pointer;
+    color: green;
+}
