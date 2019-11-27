@@ -10,6 +10,7 @@ const partialDirectory = path.join(__dirname, '../templates/partials');
 
 console.log(publicdirectory);
 var app = express();
+const port = process.env.PORT || 80;
 
 
 //setting up the dynamic view
@@ -78,6 +79,6 @@ app.get('*',(req, res)=>
 
 })
 
-app.listen(80, ()=>{
+app.listen(port, ()=>{
     console.log("3000 port");
 })
